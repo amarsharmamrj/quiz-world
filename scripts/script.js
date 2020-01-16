@@ -1,5 +1,9 @@
 $(document).ready(function() {
     $(".play-button").click(function() {
+        // sound
+        var audio = $("#audio-play-button")[0];
+        audio.play();
+        // sound
         $(".quiz-modal-box").removeClass("hidden");
         $(".quiz-modal-box").addClass("show");
         $(".quiz-modal-box").html('<button type="button" class="close">&#10005;</button>' + '<div class="loader-div">' +
@@ -80,6 +84,10 @@ $(document).ready(function() {
                 var value = "";
                 $("ul li button").click(function() {
                     value = $(this).text();
+                    // sound
+                    var audio = $("#audio-click-answer")[0];
+                    audio.play();
+                    // sound
                     // array
                     responces.push(value);
                     $("ul li button").attr("disabled", true);
@@ -146,6 +154,10 @@ $(document).ready(function() {
                                             '                                        <span class="spinner-grow spinner-grow-sm"></span> Review Questions' +
                                             '                                    </button>' +
                                             '                            </div>');
+                                        // sound
+                                        var audio = $("#audio-review-page")[0];
+                                        audio.play();
+                                        // sound
                                         $(".close").click(function() {
                                             $(".quiz-modal-box").addClass("hidden");
                                         });
