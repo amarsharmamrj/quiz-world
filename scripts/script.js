@@ -148,7 +148,7 @@ $(document).ready(function() {
                                             '                                <p class="score-value"><span class="score">' + pointer + '</span><span class="score-out-of">/10</span></p>' +
                                             '                                <p class="attempted"><span>Attempted:</span><span class="attempted-value"> ' + attempted + '</span></p>' +
                                             '                                <p class="unattempted"><span>Unattempted:</span ><span class="unattempted-value"> ' + unattempted + '</span class="unattempted-value"></p>' +
-                                            '                                <img class="result-image" src="assets/images/result.gif" alt="">' +
+                                            '                                <img class="result-image" src="assets/images/minions.gif" alt="">' +
                                             '                                <div class="review-button-div">' +
                                             '                                    <button class="btn btn-primary review-button">' +
                                             '                                        <span class="spinner-grow spinner-grow-sm"></span> Review Questions' +
