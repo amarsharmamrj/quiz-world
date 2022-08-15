@@ -62,7 +62,13 @@ $(document).ready(function() {
 
                 // passing json values for the first question
                 $(".question-number span").text(1);
-                $(".question").text(data.results[0].question);
+
+                var textarea = document.createElement("textarea");
+                textarea.innerHTML = data.results[0].question;
+                let question = textarea.value;
+
+                // $(".question").text(data.results[0].question);
+                $(".question").text(question);
                 $(".option1").text(data.results[0].correct_answer);
                 $(".option2").text(data.results[0].incorrect_answers[0]);
                 $(".option3").text(data.results[0].incorrect_answers[1]);
