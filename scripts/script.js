@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function() { 
     $(".play-button").click(function() {
         // sound
         var audio = $("#audio-play-button")[0];  
