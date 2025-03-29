@@ -4,7 +4,7 @@ $(document).ready(function() {
         var audio = $("#audio-play-button")[0];
         audio.play();
         // sound
-        $(".quiz-modal-box").removeClass("hidden");
+        $(".quiz-modal-box").removeClass("hidden"); 
         $(".quiz-modal-box").addClass("show");
         $(".quiz-modal-box").html('<button type="button" class="close">&#10005;</button>' + '<div class="loader-div">' +
             '<div class="loader">' +
