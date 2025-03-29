@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $(".play-button").click(function() {
         // sound
-        var audio = $("#audio-play-button")[0];
+        var audio = $("#audio-play-button")[0]; 
         audio.play();
         // sound
         $(".quiz-modal-box").removeClass("hidden"); 
