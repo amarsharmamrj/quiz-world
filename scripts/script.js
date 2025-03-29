@@ -102,7 +102,7 @@ $(document).ready(function() {
                 var index = 1;
                 setInterval(function() {
                     if (index < 10) {
-                        if (responces.length < index) {
+                        if (responces.length < index) { 
                             responces.push("n");
                         }
                         $(".question-number span").text(index + 1);
